@@ -52,7 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+<packaging>jar</packaging>
 	<build>
 		<plugins>
 			<plugin>
@@ -68,7 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalname>ci-cd-githubactions</finalname>
+		<finalName>ci-cd-githubactions</finalName>
 	</build>
 
 </project>
